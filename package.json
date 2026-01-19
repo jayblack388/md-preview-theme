@@ -2,15 +2,24 @@
   "name": "markdown-theme-sync",
   "displayName": "Markdown Theme Sync",
   "description": "Auto-sync markdown preview styling with editor theme (light/dark)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "jayblack388",
   "license": "MIT",
   "engines": {
     "vscode": "^1.74.0",
     "node": ">=18.0.0"
   },
-  "categories": ["Other"],
-  "keywords": ["markdown", "preview", "theme", "dark", "light", "cursor"],
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "markdown",
+    "preview",
+    "theme",
+    "dark",
+    "light",
+    "cursor"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/jayblack388/md-preview-theme"
