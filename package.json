@@ -1,0 +1,58 @@
+{
+  "name": "markdown-theme-sync",
+  "displayName": "Markdown Theme Sync",
+  "description": "Auto-sync markdown preview styling with editor theme (light/dark)",
+  "version": "0.1.0",
+  "publisher": "jayblack388",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.74.0",
+    "node": ">=18.0.0"
+  },
+  "categories": ["Other"],
+  "keywords": ["markdown", "preview", "theme", "dark", "light", "cursor"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jayblack388/md-preview-theme"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onLanguage:markdown"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "markdownThemeSync.regenerate",
+        "title": "Markdown Theme Sync: Regenerate Theme CSS"
+      }
+    ],
+    "markdown.previewScripts": [
+      "./media/theme-sync.js"
+    ],
+    "markdown.previewStyles": [
+      "./media/light-theme.css",
+      "./media/dark-theme.css",
+      "./media/theme-tokens.css"
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "yarn compile && vsce package --no-yarn",
+    "commit": "cz"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/vscode": "^1.74.0",
+    "@vscode/vsce": "^2.22.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "ovsx": "^0.8.0",
+    "typescript": "^5.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

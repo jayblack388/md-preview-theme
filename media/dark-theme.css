@@ -1,0 +1,84 @@
+body.vscode-dark,
+body.vscode-high-contrast {
+  background-color: var(--vscode-editor-background) !important;
+  color: var(--vscode-editor-foreground) !important;
+}
+
+body.vscode-dark h1,
+body.vscode-dark h2,
+body.vscode-dark h3,
+body.vscode-dark h4,
+body.vscode-dark h5,
+body.vscode-dark h6,
+body.vscode-high-contrast h1,
+body.vscode-high-contrast h2,
+body.vscode-high-contrast h3,
+body.vscode-high-contrast h4,
+body.vscode-high-contrast h5,
+body.vscode-high-contrast h6 {
+  color: var(--vscode-editor-foreground) !important;
+  border-bottom-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-dark a,
+body.vscode-high-contrast a {
+  color: var(--vscode-textLink-foreground) !important;
+}
+
+body.vscode-dark a:hover,
+body.vscode-high-contrast a:hover {
+  color: var(--vscode-textLink-activeForeground) !important;
+}
+
+body.vscode-dark code,
+body.vscode-high-contrast code {
+  background-color: var(--vscode-textCodeBlock-background, var(--vscode-editor-background)) !important;
+  color: var(--vscode-editor-foreground) !important;
+  border: 1px solid var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-dark pre,
+body.vscode-high-contrast pre {
+  background-color: var(--vscode-textCodeBlock-background, var(--vscode-editor-background)) !important;
+  border: 1px solid var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-dark pre code,
+body.vscode-high-contrast pre code {
+  border: none !important;
+}
+
+body.vscode-dark blockquote,
+body.vscode-high-contrast blockquote {
+  border-left-color: var(--vscode-textBlockQuote-border) !important;
+  background-color: var(--vscode-textBlockQuote-background) !important;
+  color: var(--vscode-editor-foreground) !important;
+}
+
+body.vscode-dark table,
+body.vscode-high-contrast table {
+  border-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-dark table th,
+body.vscode-dark table td,
+body.vscode-high-contrast table th,
+body.vscode-high-contrast table td {
+  border-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-dark table tr,
+body.vscode-high-contrast table tr {
+  background-color: var(--vscode-editor-background) !important;
+  border-top-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-dark table tr:nth-child(2n),
+body.vscode-high-contrast table tr:nth-child(2n) {
+  background-color: var(--vscode-textCodeBlock-background, var(--vscode-editor-background)) !important;
+}
+
+body.vscode-dark hr,
+body.vscode-high-contrast hr {
+  border-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}

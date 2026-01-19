@@ -1,0 +1,65 @@
+body.vscode-light {
+  background-color: var(--vscode-editor-background) !important;
+  color: var(--vscode-editor-foreground) !important;
+}
+
+body.vscode-light h1,
+body.vscode-light h2,
+body.vscode-light h3,
+body.vscode-light h4,
+body.vscode-light h5,
+body.vscode-light h6 {
+  color: var(--vscode-editor-foreground) !important;
+  border-bottom-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-light a {
+  color: var(--vscode-textLink-foreground) !important;
+}
+
+body.vscode-light a:hover {
+  color: var(--vscode-textLink-activeForeground) !important;
+}
+
+body.vscode-light code {
+  background-color: var(--vscode-textCodeBlock-background, var(--vscode-editor-background)) !important;
+  color: var(--vscode-editor-foreground) !important;
+  border: 1px solid var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-light pre {
+  background-color: var(--vscode-textCodeBlock-background, var(--vscode-editor-background)) !important;
+  border: 1px solid var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-light pre code {
+  border: none !important;
+}
+
+body.vscode-light blockquote {
+  border-left-color: var(--vscode-textBlockQuote-border) !important;
+  background-color: var(--vscode-textBlockQuote-background) !important;
+  color: var(--vscode-editor-foreground) !important;
+}
+
+body.vscode-light table {
+  border-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-light table th,
+body.vscode-light table td {
+  border-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-light table tr {
+  background-color: var(--vscode-editor-background) !important;
+  border-top-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
+
+body.vscode-light table tr:nth-child(2n) {
+  background-color: var(--vscode-textCodeBlock-background, var(--vscode-editor-background)) !important;
+}
+
+body.vscode-light hr {
+  border-color: var(--vscode-panel-border, var(--vscode-editorGroup-border)) !important;
+}
