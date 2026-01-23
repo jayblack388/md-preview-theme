@@ -3,6 +3,7 @@
   "displayName": "Markdown Theme Sync",
   "description": "Auto-sync markdown preview styling with editor theme (light/dark)",
   "version": "0.1.1",
+  "icon": "images/icon.png",
   "publisher": "jayblack388",
   "license": "MIT",
   "engines": {
