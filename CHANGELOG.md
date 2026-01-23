@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/jayblack388/md-preview-theme/compare/markdown-theme-sync-v0.1.1...markdown-theme-sync-v0.1.2) (2026-01-23)
+
+
+### Bug Fixes
+
+* missed icon in package.json ([8ee7758](https://github.com/jayblack388/md-preview-theme/commit/8ee7758c46ebeae1e821bc7934a24147c85bfb17))
+
 ## [0.1.1](https://github.com/jayblack388/md-preview-theme/compare/markdown-theme-sync-v0.1.0...markdown-theme-sync-v0.1.1) (2026-01-19)
 
 
